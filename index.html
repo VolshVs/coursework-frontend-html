@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Coursework frontend (HTML/CSS)</title>
 	<link rel="stylesheet" href="css/style.css">
-<!--	<link rel="icon" href="favicon.ico" />-->
+	<link rel="icon" href="images/favicon.png">
 </head>
 <body>
 	<header class="welcome">
@@ -45,7 +45,7 @@
 			</header>
 		</div>
 	</header>
-	<main>
+	<main class="main-content">
 		<section class="trends">
 			<header class="trends__title">
 				<h2 class="title">Сейчас в тренде</h2>
@@ -53,46 +53,300 @@
 			<div class="trends__container">
 				<article class="trends__item">
 					<div class="trends__preview preview-garden">
-<!--						<img src="/images/trend1.jpg" alt="Lifestyle interior" class="trends__image">-->
 						<div class="trends__category">
-							<h3 class="category-description">Lifestyle interior</h3>
-							<h2 class="category-description-ru">Сейчас в тренде: сад <br>на подоконнике</h2>
+							<div class="category__list-tags">
+								<ul class="list-tags">
+									<li>
+										<h3 class="title-tag">Lifestyle</h3>
+									</li>
+									<li>
+										<h3 class="title-tag">Interior</h3>
+									</li>
+								</ul>
+							</div>
+							<h2 class="category__title-trends">Сейчас в тренде: сад <br>на подоконнике</h2>
 						</div>
 					</div>
 				</article>
 				<article class="trends__item">
 					<div class="trends__preview preview-food">
-<!--						<img src="/images/trend2.jpg" alt="Food" class="trends__image">-->
 						<div class="trends__category">
-							<h3 class="category-description">Food</h3>
-							<h2 class="category-description-ru">Сыры на красивых <br>картинках из интернета: <br>какие они на вкус?</h2>
+							<div class="category__list-tags">
+								<ul class="list-tags">
+									<li>
+										<h3 class="title-tag">Food</h3>
+									</li>
+								</ul>
+							</div>
+							<h2 class="category__title-trends">Сыры на красивых <br>картинках из интернета: <br>какие они на вкус?</h2>
 						</div>
 					</div>
 				</article>
 				<article class="trends__item">
 					<div class="trends__preview preview-travel">
-<!--						<img src="/images/trend3.jpg" alt="Lifestyle travel" class="trends__image">-->
 						<div class="trends__category">
-							<h3 class="category-description">Lifestyle travel</h3>
-							<h2 class="category-description-ru">собираемся в первый <br>поход в горы</h2>
+							<div class="category__list-tags">
+								<ul class="list-tags">
+									<li>
+										<h3 class="title-tag">Lifestyle</h3>
+									</li>
+									<li>
+										<h3 class="title-tag">Travel</h3>
+									</li>
+								</ul>
+							</div>
+							<h2 class="category__title-trends">собираемся в первый <br>поход в горы</h2>
 						</div>
 					</div>
 				</article>
 				<article class="trends__item">
 					<div class="trends__preview preview-health">
-<!--						<img src="/images/trend4.jpg" alt="Food health" class="trends__image">-->
 						<div class="trends__category">
-							<h3 class="category-description">Food health</h3>
-							<h2 class="category-description-ru">Сейчас в тренде: сколько <br>витамина С в лимонах?</h2>
+							<div class="category__list-tags">
+								<ul class="list-tags">
+									<li>
+										<h3 class="title-tag">Food</h3>
+									</li>
+									<li>
+										<h3 class="title-tag">Health</h3>
+									</li>
+								</ul>
+							</div>
+							<h2 class="category__title-trends">Сейчас в тренде: сколько <br>витамина С в лимонах?</h2>
 						</div>
 					</div>
 				</article>
 			</div>
 		</section>
-		<aside class="side-bar"></aside>
-		<section class="post-list"></section>
-		<section class="shop"></section>
+		<section class="section-content">
+			<article class="post__container">
+				<ul class="post__list">
+					<li class="post__item">
+						<div class="item__picture">
+							<picture>
+								<img src="images/last-post1.jpg" alt="10 мест, ради которых стоит проснуться на рассвете">
+							</picture>
+						</div>
+						<div class="item__content">
+							<div class="item__category">
+								<div class="category__list-tags">
+									<ul class="list-tags">
+										<li>
+											<h3 class="title-tag">Travel</h3>
+										</li>
+										<li>
+											<h3 class="title-tag">Health</h3>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="">
+								<h2 class="category__title-ru">10 мест, ради которых стоит <br>проснуться на рассвете</h2>
+							</div>
+							<div class="category__date-author">
+								<span class="category__date date">10 июня 2019</span>
+								<span class="category__author">Неизвестный автор</span>
+							</div>
+							<div class="category__description">
+								<p>Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города... Музеи еще закрыты. Что посмотреть?</p>
+							</div>
+						</div>
+					</li>
+					<li class="post__item">
+						<div class="item__picture">
+							<picture>
+								<img src="images/last-post2.jpg" alt="Йога для начинающих в домашних условиях">
+							</picture>
+						</div>
+						<div class="item__content">
+							<div class="item__category">
+								<div class="category__list-tags">
+									<ul class="list-tags">
+										<li>
+											<h3 class="title-tag">Health</h3>
+										</li>
+										<li>
+											<h3 class="title-tag">Lifestyle</h3>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="">
+								<h2 class="category__title-ru">Йога для начинающих в <br>домашних условиях</h2>
+							</div>
+							<div class="category__date-author">
+								<span class="category__date date">10 июня 2019</span>
+								<span class="category__author">Неизвестный автор</span>
+							</div>
+							<div class="category__description">
+								<p>Расскажем, какие упражнения выбрать и как сделать коврик для занятий йогой из того, что можно найти в шкафу.</p>
+							</div>
+						</div>
+					</li>
+					<li class="post__item">
+						<div class="item__picture">
+							<picture>
+								<img src="images/last-post3.jpg" alt="Лучшие музыкальные фестивали этого лета">
+							</picture>
+						</div>
+						<div class="item__content">
+							<div class="item__category">
+								<div class="category__list-tags">
+									<ul class="list-tags">
+										<li>
+											<h3 class="title-tag">Music</h3>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="">
+								<h2 class="category__title-ru">Лучшие музыкальные <br>фестивали этого лета</h2>
+							</div>
+							<div class="category__date-author">
+								<span class="category__date date">10 июня 2019</span>
+								<span class="category__author">Неизвестный автор</span>
+							</div>
+							<div class="category__description">
+								<p>Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьёте свою палатку?</p>
+								<p>Мы составили список лучших летних фестивалей по всему миру.</p>
+							</div>
+						</div>
+					</li>
+					<li class="post__item">
+						<div class="item__picture">
+							<picture>
+								<img src="images/last-post4.jpg" alt="Наукоёмкий подход к кулинарии">
+							</picture>
+						</div>
+						<div class="item__content">
+							<div class="item__category">
+								<div class="category__list-tags">
+									<ul class="list-tags">
+										<li>
+											<h3 class="title-tag">Lifestyle</h3>
+										</li>
+										<li>
+											<h3 class="title-tag">Food</h3>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="">
+								<h2 class="category__title-ru">Наукоёмкий подход к <br>кулинарии</h2>
+							</div>
+							<div class="category__date-author">
+								<span class="category__date date">10 июня 2019</span>
+								<span class="category__author">Неизвестный автор</span>
+							</div>
+							<div class="category__description">
+								<p>Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p>
+							</div>
+						</div>
+					</li>
+					<li class="post__item">
+						<div class="item__picture">
+							<picture>
+								<img src="images/last-post5.jpg" alt="Делаем модные принты на подушках для интерьера">
+							</picture>
+						</div>
+						<div class="item__content">
+							<div class="item__category">
+								<div class="category__list-tags">
+									<ul class="list-tags">
+										<li>
+											<h3 class="title-tag">Lifestyle</h3>
+										</li>
+										<li>
+											<h3 class="title-tag">Interior</h3>
+										</li>
+										<li>
+											<h3 class="title-tag">Art</h3>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="">
+								<h2 class="category__title-ru">Делаем модные принты на <br>подушках для интерьера</h2>
+							</div>
+							<div class="category__date-author">
+								<span class="category__date date">10 июня 2019</span>
+								<span class="category__author">Неизвестный автор</span>
+							</div>
+							<div class="category__description">
+								<p>Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушки в химчистку.</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</article>
+			<aside class="side-bar">
+				<div class="new-posts">
+					<header class="new-posts__title">
+						<h3 class="new-post__title">Новые посты</h3>
+					</header>
+					<ul class="new-posts__list">
+						<li class="new-posts__item">
+							<img src="images/2.jpg" alt="#">
+							<div class="new-posts__content">
+								<span class="new-posts__date date">14 июня 2019</span>
+								<h4 class="new-posts__title">10 мест, ради которых стоит <br>проснуться на рассвете</h4>
+							</div>
+						</li>
+						<li class="new-posts__item">
+							<img src="images/151.jpg" alt="#">
+							<div class="new-posts__content">
+								<span class="new-posts__date date">14 июня 2019</span>
+								<h4 class="new-posts__title">Йога для домашних</h4>
+							</div>
+						</li>
+						<li class="new-posts__item">
+							<img src="images/45.jpg" alt="#">
+							<div class="new-posts__content">
+								<span class="new-posts__date date">14 июня 2019</span>
+								<h4 class="new-posts__title">Как мы превратили <br>классное место в <br>балкон</h4>
+							</div>
+						</li>
+						<li class="new-posts__item">
+							<img src="images/501.jpg" alt="#">
+							<div class="new-posts__content">
+								<span class="new-posts__date date">14 июня 2019</span>
+								<h4 class="new-posts__title">Кулинарный подход <br>к науке</h4>
+							</div>
+						</li>
+						<li class="new-posts__item">
+							<img src="images/7.jpg" alt="#">
+							<div class="new-posts__content">
+								<span class="new-posts__date date">14 июня 2019</span>
+								<h4 class="new-posts__title">Лучшие прически для <br>распущенных волос</h4>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="search">
+				
+				</div>
+				<div class="spamming">
+				
+				</div>
+				<div class="all-tags">
+				
+				</div>
+				<div class="themes">
+				
+				</div>
+			</aside>
+		</section>
+		<section class="shop">
+		
+		</section>
 	</main>
-	<footer class="footer"></footer>
+	<footer class="footer">
+		<nav class="social">
+		
+		</nav>
+		<div class="copyright">
+			<span>Copyright © 2009-2019 City Blog LLC.</span>
+		</div>
+	</footer>
 </body>
 </html>
