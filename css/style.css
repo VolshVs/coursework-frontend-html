@@ -57,7 +57,6 @@ body {
 
 .welcome__upper-part {
 	width: 1200px;
-	/*min-height: 20%;*/
 	padding-top: 28px;
 	display: flex;
 	flex-grow: 0;
@@ -67,30 +66,22 @@ body {
 
 .welcome__title {
 	display: flex;
-	/*justify-content: center;*/
 	flex-grow: 1;
-	/*padding-bottom: 100px;*/
-	/*height: 80%;*/
 	align-items: center;
 	font-size: 2.7vh;
 	line-height: 1.6;
-	/*font-family: 'OpenSans', sans-serif;*/
 	font-weight: bold;
-	/*min-height: auto;*/
 }
 
 .menu__list {
 	display: flex;
-	/*align-items: center;*/
 	list-style-type: none;
 	font-family: inherit;
 	font-size: 1em;
 	color: white;
-	/*margin-left: 20px;*/
 }
 
 .welcome__logo {
-	/*width: 180px;*/
 	width: 20vh;
 	padding-left: 15px;
 }
@@ -111,19 +102,13 @@ body {
 	text-transform: uppercase;
 	display: flex;
 	text-align: center;
-	/*align-items: center;*/
-	/*align-content: center;*/
-	/*justify-content: center;*/
 	color: white;
 }
 
 .main-content {
 	display: flex;
-	/*width: 1200px;*/
-	/*flex-wrap: wrap;*/
 	flex-direction: column;
 	align-items: center;
-	/*justify-content: space-between;*/
 }
 
 .trends {
@@ -131,16 +116,12 @@ body {
 }
 
 .list-tags {
-	/*text-decoration: none;*/
 	display: flex;
 	list-style-type: none;
-	/*flex-direction: row;*/
 	padding: 0;
-	/*justify-content: flex-start;*/
 }
 
 .title-tag {
-	/*display: flex;*/
 	padding-right: 25px;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -149,7 +130,6 @@ body {
 .trends__title, .shop__title {
 	text-align: center;
 	margin-top: 6vh;
-	/*border-bottom: black 10px solid;*/
 }
 
 .trends__title:after, .shop__title:after {
@@ -173,60 +153,38 @@ body {
 	padding-top: 50px;
 	margin-top: 0;
 	display: flex;
-	/*justify-content: space-around;*/
 }
 
 .trends__category {
 	display: inline-block;
 	border: 4px solid #b59f5b;
 	align-self: flex-end;
-	/*display: flex;*/
-	/*flex-direction: column;*/
-	/*align-items: center;*/
-	/*align-items: flex-end;*/
 	padding: 50px;
 	margin: 20px;
 }
 
 .trends__item {
 	display: flex;
-	/*display: inline-flex;*/
-	/*box-sizing: content-box;*/
-	/*min-width: calc(25% - 4px);*/
-	/*height: 325px;*/
-	/*min-height: 30vh;*/
 	width: 25%;
-
-	/*height: 100%;*/
-
-	/*padding-left: 10px;*/
 }
 
 .preview-food, .preview-travel, .preview-health {
 	margin-left: 5px;
-	/*margin-right: 5px;*/
 }
 
 .trends__preview {
 	width: 100%;
-	/*height: 100%;*/
 	display: flex;
 	justify-content: center;
-/*	box-sizing: border-box;*/
 }
 
 .preview-garden {
 	display: inline-flex;
-	/*height: 100%;*/
 	background-image: url("https://volshvs.github.io/coursework-frontend-html/images/trend1.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	background-color: black;
-	/*max-width: 100%;*/
-	/*max-height: 100%;*/
-	/*object-fit: contain;*/
-
 	position: relative;
 	z-index: 0;
 }
@@ -249,7 +207,6 @@ body {
 	background-position: center center;
 	background-size: cover;
 	background-color: black;
-
 	position: relative;
 	z-index: 0;
 }
@@ -272,7 +229,6 @@ body {
 	background-position: center center;
 	background-size: cover;
 	background-color: black;
-
 	position: relative;
 	z-index: 0;
 }
@@ -295,7 +251,6 @@ body {
 	background-position: center center;
 	background-size: cover;
 	background-color: black;
-
 	position: relative;
 	z-index: 0;
 }
@@ -332,23 +287,14 @@ body {
 }
 
 .post__container {
-	/*flex-grow: 2;*/
 	width: 70%;
-	/*padding: 0;*/
-	/*display: flex;*/
-	/*justify-content: flex-start;*/
 }
 
 .side-bar {
-	/*flex-grow: 1;*/
 	width: 30%;
 	box-sizing: border-box;
 	padding-left: 30px;
 }
-
-/*.new-posts {*/
-/*	margin-left: 30px;*/
-/*}*/
 
 .new-post__title {
 	text-transform: uppercase;
@@ -376,8 +322,6 @@ body {
 .category__title-ru {
 	text-transform: uppercase;
 	margin-top: 0;
-
-	/*font-weight: bold;*/
 	font-size: 2vh;
 }
 
@@ -423,8 +367,6 @@ body {
 
 .search {
 	display: flex;
-	/*display: inline-flex;*/
-	/*width: 100%;*/
 }
 
 .search__field {
@@ -433,11 +375,9 @@ body {
 }
 
 .field {
-	/*display: flex;*/
 	box-sizing: border-box;
 	background-color: #f4f7f6;
 	height: 6vh;
-	/*width: 10%;*/
 	font-size: 1.5vh;
 	font-weight: normal;
 	padding-left: 30px;
@@ -447,19 +387,11 @@ body {
 }
 
 .bottom__search {
-	/*display: flex;*/
-	/*max-width: 100px;*/
-	/*height: 100px;*/
-	/*font-size: 10vh;*/
-	/*display: flex;*/
 	max-width: 6vh;
 	height: 6vh;
 	border-style: none;
 	flex-grow: 2;
-	/*justify-content: flex-end;*/
 	background-color: #b59f5b;
-	/*background-image: url("https://volshvs.github.io/coursework-frontend-html/svg/search.svg");*/
-	/*image: url("https://volshvs.github.io/coursework-frontend-html/svg/search.svg");*/
 }
 
 .bottom__search:hover {
@@ -468,7 +400,6 @@ body {
 
 .search__img {
 	width: 2.5vh;
-	/*height: 2.5vh;*/
 }
 
 .spamming, .all-tags {
@@ -482,9 +413,7 @@ body {
 }
 
 .field__email {
-	/*display: block;*/
 	outline: none;
-	/*display: flex;*/
 	box-sizing: border-box;
 	background-color: #f4f7f6;
 	height: 6vh;
@@ -494,7 +423,6 @@ body {
 	padding-left: 30px;
 	border: none;
 	flex-grow: 1;
-	/*padding-left: 0;*/
 }
 
 .field__email:focus, .field:focus {
@@ -513,14 +441,11 @@ body {
 }
 
 .spamming-form__bottom:hover {
-	/*box-sizing: content-box;*/
 	border-top: 2px solid #f4f7f6;
 }
 
 .all-tags__list {
 	display: inline-flex;
-	/*align-content: flex-start;*/
-	/*max-width: 100%;*/
 	padding-left: 0;
 	margin-top: 3vh;
 	flex-wrap: wrap;
@@ -560,37 +485,13 @@ body {
 	color: #b59f5b;
 	display: inline-block;
 	box-sizing: border-box;
-	/*padding-bottom: 20px;*/
-	/*margin-bottom: 20px;*/
 }
-
-/*.shop__title:after {*/
-/*	content: '';*/
-/*	width: 65px;*/
-/*	height: 3px;*/
-/*	background: #b59f5b;*/
-/*	position: absolute;*/
-/*	transform: translate(-50%);*/
-/*}*/
 
 .item__border {
 	border: 3px solid #b59f5b;
-	/*box-sizing: content-box;*/
 	padding: 30px;
-	/*display: block;*/
-	/*float: top;*/
-	/*top: 10px;*/
-
-	/*display: inline-block;*/
-	/*border: 4px solid #b59f5b;*/
-	/*align-self: flex-end;*/
-
 	display: flex;
 	flex-direction: column;
-	/*align-items: center;*/
-	/*align-items: flex-end;*/
-	/*padding: 50px;*/
-	/*margin: 20px;*/
 }
 
 .shop__title {
@@ -605,12 +506,9 @@ body {
 	display: flex;
 	list-style-type: none;
 	padding-left: 0;
-/*justify-content: space-between;*/
-	/*flex-direction: row;*/
 }
 
 .shop__item {
-	/*display: flex;*/
 	width: 33%;
 	justify-content: space-between;
 	box-sizing: border-box;
@@ -646,9 +544,7 @@ body {
 .shop_bottom {
 	width: 45%;
 	align-content: center;
-	/*align-items: center;*/
 	justify-content: center;
-	/*justify-items: center;*/
 }
 
 .text-url {
@@ -666,7 +562,6 @@ body {
 	height: 8vh;
 	display: flex;
 	background-color: #f4f7f6;
-	/*z-index: 1;*/
 }
 
 .footer-social__list {
@@ -675,15 +570,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 	font-size: 1em;
 }
-
-/*.footer-social__item {*/
-/*	display: flex;*/
-/*	width: 2vh;*/
-/*	padding-right: 30px;*/
-/*}*/
 
 .footer-social__link {
 	display: flex;
