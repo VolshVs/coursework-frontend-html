@@ -131,7 +131,7 @@ body {
 }
 
 .trends {
-	/*width: 100%;*/
+	width: 100%;
 }
 
 .list-tags {
@@ -172,16 +172,23 @@ body {
 }
 
 .trends__container {
+	width: 100%;
+	min-height: 348px;
 	padding-top: 50px;
 	margin-top: 0;
 	display: flex;
-	justify-content: space-around;
+	/*justify-content: space-around;*/
 }
 
 .trends__category {
-	display: flex;
-	flex-direction: column;
+
+	display: inline-block;
+	border: 4px solid #b59f5b;
+
+	/*display: flex;*/
+	/*flex-direction: column;*/
 	/*align-items: center;*/
+	/*align-items: flex-end;*/
 }
 
 .trends__item {
@@ -193,17 +200,27 @@ body {
 	/*min-height: 30vh;*/
 	width: 25%;
 
+	/*height: 100%;*/
+
 	/*padding-left: 10px;*/
 }
 
-/*.trends__preview {*/
-/*	display: flex;*/
-/*	justify-content: center;*/
+.preview-food, .preview-travel, .preview-health {
+	margin-left: 5px;
+	/*margin-right: 5px;*/
+}
+
+.trends__preview {
+	width: 100%;
+	/*height: 100%;*/
+	display: flex;
+	justify-content: center;
 /*	box-sizing: border-box;*/
-/*}*/
+}
 
 .preview-garden {
 	display: inline-flex;
+	/*height: 100%;*/
 	background-image: url("https://volshvs.github.io/coursework-frontend-html/images/trend1.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -296,10 +313,6 @@ body {
 	background-color: black;
 	opacity: 0.45;
 	z-index: -1;
-}
-
-.trends__category {
-	border: 4px solid #b59f5b;
 }
 
 .category__list-tags {
@@ -563,6 +576,19 @@ body {
 /*	transform: translate(-50%);*/
 /*}*/
 
+.item__border {
+	border: 3px solid #b59f5b;
+	/*box-sizing: content-box;*/
+	padding: 30px;
+	/*display: block;*/
+	/*float: top;*/
+	/*top: 10px;*/
+}
+
+.shop__title {
+	margin-top: 0;
+}
+
 .shop__container {
 	width: 1200px;
 }
@@ -584,16 +610,25 @@ body {
 }
 
 .shop__img {
-
 }
 
 .shop__item-text {
 	font-size: 1.5vh;
 	font-weight: normal;
+	margin: 0;
 }
 
 .price-decoration {
 	text-decoration: line-through;
+	font-size: 1.5vh;
+	font-weight: normal;
+	margin: 0;
+}
+
+.price-normal {
+	font-size: 2vh;
+	font-weight: bold;
+	margin: 0;
 }
 
 .shop__price-bottom {
