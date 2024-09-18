@@ -26,7 +26,7 @@ body {
 	color: black;
 	/*font-family: 'OpenSans', sans-serif;*/
 	font-weight: bold;
-	font-size: 2.4vh;
+	font-size: 2vh;
 }
 
 .welcome {
@@ -123,8 +123,10 @@ body {
 
 .main-content {
 	display: flex;
+	/*width: 1200px;*/
 	/*flex-wrap: wrap;*/
 	flex-direction: column;
+	align-items: center;
 	/*justify-content: space-between;*/
 }
 
@@ -136,13 +138,16 @@ body {
 	/*text-decoration: none;*/
 	display: flex;
 	list-style-type: none;
-	flex-direction: row;
+	/*flex-direction: row;*/
 	padding: 0;
 	/*justify-content: flex-start;*/
 }
 
 .title-tag {
 	/*display: flex;*/
+	padding-right: 25px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .trends__title {
@@ -154,10 +159,16 @@ body {
 .trends__title:after {
 	content: '';
 	width: 65px;
-	height: 4px;
+	height: 3px;
 	background: #b59f5b;
 	position: absolute;
 	transform: translate(-50%);
+}
+
+.new-posts__title, .all-tags__title {
+	margin-top: 0;
+	text-transform: uppercase;
+	font-size: 1.3vh;
 }
 
 .trends__container {
@@ -170,7 +181,7 @@ body {
 .trends__category {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	/*align-items: center;*/
 }
 
 .trends__item {
@@ -179,23 +190,28 @@ body {
 	/*box-sizing: content-box;*/
 	/*min-width: calc(25% - 4px);*/
 	/*height: 325px;*/
-	min-height: 30vh;
+	/*min-height: 30vh;*/
+	width: 25%;
 
 	/*padding-left: 10px;*/
 }
 
-.trends__preview {
-	display: flex;
-	justify-content: center;
-	box-sizing: border-box;
-}
+/*.trends__preview {*/
+/*	display: flex;*/
+/*	justify-content: center;*/
+/*	box-sizing: border-box;*/
+/*}*/
 
 .preview-garden {
+	display: inline-flex;
 	background-image: url("https://volshvs.github.io/coursework-frontend-html/images/trend1.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	background-color: black;
+	/*max-width: 100%;*/
+	/*max-height: 100%;*/
+	/*object-fit: contain;*/
 
 	position: relative;
 	z-index: 0;
@@ -295,39 +311,208 @@ body {
 .category__title-trends {
 	color: white;
 	text-transform: uppercase;
-	font-size: 2.4vh;
+	font-size: 2vh;
 }
 
 .section-content {
 	width: 1200px;
 	display: inline-flex;
 	justify-content: center;
+	margin-top: 6vh;
 }
 
 .post__container {
 	/*flex-grow: 2;*/
-	width: 930px;
+	width: 70%;
+	/*padding: 0;*/
+	/*display: flex;*/
+	/*justify-content: flex-start;*/
 }
 
 .side-bar {
 	/*flex-grow: 1;*/
-	width: 270px;
+	width: 30%;
+	box-sizing: border-box;
+	padding-left: 30px;
+}
+
+/*.new-posts {*/
+/*	margin-left: 30px;*/
+/*}*/
+
+.new-post__title {
+	text-transform: uppercase;
+	margin-top: 0;
 }
 
 .post__list {
 	display: flex;
 	flex-direction: column;
+	padding-left: 0;
+	margin-top: 0;
+	width: 93%;
 }
 
 .post__item {
 	display: inline-flex;
+	padding-bottom: 5vh;
+	font-weight: normal;
+}
+
+.item__content {
+	padding-left: 3vh;
+}
+
+.category__title-ru {
+	text-transform: uppercase;
+	margin-top: 0;
+
+	/*font-weight: bold;*/
+	font-size: 2vh;
+}
+
+.category__date, .date {
+	font-size: 1.4vh;
+	color: #999999;
+}
+
+.category__author {
+	font-weight: bold;
+	font-size: 1.4vh;
+	padding-left: 15px;
+}
+
+.category__description {
+	font-size: 1.5vh;
+	font-weight: normal;
 }
 
 .new-posts__list {
 	display: flex;
 	flex-direction: column;
+	padding-top: 3vh;
+	padding-left: 0;
 }
 
 .new-posts__item {
 	display: inline-flex;
+}
+
+.new-posts__item:last-child {
+	margin-bottom: 3vh;
+}
+
+.new-post_img {
+	max-width: 100%;
+	height: 100%;
+}
+
+.new-posts__content {
+	padding-left: 15px;
+}
+
+.field {
+	box-sizing: border-box;
+	background-color: #f4f7f6;
+	height: 6vh;
+	font-size: 1.5vh;
+	font-weight: normal;
+	padding-left: 30px;
+}
+
+.bottom__search {
+	display: flex;
+	max-width: 100px;
+	height: 100px;
+	/*font-size: 10vh;*/
+	/*image: url("https://volshvs.github.io/coursework-frontend-html/svg/search.svg");*/
+}
+
+.all-tags__list {
+	display: inline-flex;
+	/*align-content: flex-start;*/
+	/*max-width: 100%;*/
+	padding-left: 0;
+	margin-top: 3vh;
+	flex-wrap: wrap;
+}
+
+.all-tags__item {
+	list-style-type: none;
+	box-sizing: border-box;
+	margin: 3px;
+}
+
+.item-tag {
+	text-transform: uppercase;
+	padding: 10px;
+	border: 3px solid #eeeeee;
+	margin: 0;
+}
+
+.themes__list {
+	margin-top: 5vh;
+	padding-left: 0;
+}
+
+.themes__item {
+	list-style-type: none;
+	border-bottom: 2px solid #eeeeee;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.themes__text {
+	font-size: 1.5vh;
+	font-weight: bold;
+}
+
+.themes__number {
+	color: #b59f5b;
+	display: inline-block;
+	box-sizing: border-box;
+	/*padding-bottom: 20px;*/
+	/*margin-bottom: 20px;*/
+}
+
+.copyright, .footer-social {
+	display: flex;
+	justify-content: center;
+}
+
+.footer-social__nav {
+	width: 1200px;
+	height: 8vh;
+	display: flex;
+	background-color: #f4f7f6;
+	/*z-index: 1;*/
+}
+
+.footer-social__list {
+	list-style-type: none;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: 1em;
+}
+
+/*.footer-social__item {*/
+/*	display: flex;*/
+/*	width: 2vh;*/
+/*	padding-right: 30px;*/
+/*}*/
+
+.footer-social__link {
+	display: flex;
+	width: 2vh;
+	padding-right: 30px;
+}
+
+.copyright-text {
+	font-size: 0.7em;
+	color: #999999;
+	padding-top: 6vh;
+	padding-bottom: 3vh;
 }

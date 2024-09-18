@@ -281,40 +281,40 @@
 			</article>
 			<aside class="side-bar">
 				<div class="new-posts">
-					<header class="new-posts__title">
+					<header class="new-posts__title trends__title">
 						<h3 class="new-post__title">Новые посты</h3>
 					</header>
 					<ul class="new-posts__list">
 						<li class="new-posts__item">
-							<img src="images/2.jpg" alt="#">
+							<img class="new-post_img" src="images/2.jpg" alt="#">
 							<div class="new-posts__content">
 								<span class="new-posts__date date">14 июня 2019</span>
-								<h4 class="new-posts__title">10 мест, ради которых стоит <br>проснуться на рассвете</h4>
+								<h4 class="new-posts__title">10 мест, ради которых <br>стоит проснуться</h4>
 							</div>
 						</li>
 						<li class="new-posts__item">
-							<img src="images/151.jpg" alt="#">
+							<img class="new-post_img" src="images/151.jpg" alt="#">
 							<div class="new-posts__content">
 								<span class="new-posts__date date">14 июня 2019</span>
 								<h4 class="new-posts__title">Йога для домашних</h4>
 							</div>
 						</li>
 						<li class="new-posts__item">
-							<img src="images/45.jpg" alt="#">
+							<img class="new-post_img" src="images/45.jpg" alt="#">
 							<div class="new-posts__content">
 								<span class="new-posts__date date">14 июня 2019</span>
 								<h4 class="new-posts__title">Как мы превратили <br>классное место в <br>балкон</h4>
 							</div>
 						</li>
 						<li class="new-posts__item">
-							<img src="images/501.jpg" alt="#">
+							<img class="new-post_img" src="images/501.jpg" alt="#">
 							<div class="new-posts__content">
 								<span class="new-posts__date date">14 июня 2019</span>
 								<h4 class="new-posts__title">Кулинарный подход <br>к науке</h4>
 							</div>
 						</li>
 						<li class="new-posts__item">
-							<img src="images/7.jpg" alt="#">
+							<img class="new-post_img" src="images/7.jpg" alt="#">
 							<div class="new-posts__content">
 								<span class="new-posts__date date">14 июня 2019</span>
 								<h4 class="new-posts__title">Лучшие прически для <br>распущенных волос</h4>
@@ -322,17 +322,83 @@
 						</li>
 					</ul>
 				</div>
-				<div class="search">
-				
-				</div>
+				<form class="search">
+					<label>
+						<input class="field" name="query" placeholder="Найти..." required>
+					</label>
+					<button class="bottom__search">
+						<img src="svg/search.svg" alt="">
+					</button>
+				</form>
 				<div class="spamming">
-				
+					<div class="all-tags__title trends__title">
+						<h3>Рассылка</h3>
+					</div>
+					<div class="">
+					
+					</div>
 				</div>
 				<div class="all-tags">
-				
+					<div class="all-tags__title trends__title">
+						<h3>Теги</h3>
+					</div>
+					<ul class="all-tags__list">
+						<li class="all-tags__item">
+							<p class="item-tag">Fashion</p>
+						</li>
+						<li class="all-tags__item">
+							<p class="item-tag">Music</p>
+						</li>
+						<li class="all-tags__item">
+							<p class="item-tag">Lifestyle</p>
+						</li>
+						<li class="all-tags__item">
+							<p class="item-tag">Art</p>
+						</li>
+						<li class="all-tags__item">
+							<p class="item-tag">Interior</p>
+						</li>
+						<li class="all-tags__item">
+							<p class="item-tag">Travel</p>
+						</li>
+						<li class="all-tags__item">
+							<p class="item-tag">Food</p>
+						</li>
+						<li class="all-tags__item">
+							<p class="item-tag">Health</p>
+						</li>
+					</ul>
 				</div>
 				<div class="themes">
-				
+					<div class="all-tags__title trends__title">
+						<h3>Темы</h3>
+					</div>
+					<ul class="themes__list">
+						<li class="themes__item">
+							<span class="themes__text">Красота</span>
+							<span class="themes__number">12</span>
+						</li>
+						<li class="themes__item">
+							<span class="themes__text">Здоровье</span>
+							<span class="themes__number">4</span>
+						</li>
+						<li class="themes__item">
+							<span class="themes__text">Образ жизни</span>
+							<span class="themes__number">145</span>
+						</li>
+						<li class="themes__item">
+							<span class="themes__text">Музыка</span>
+							<span class="themes__number">28</span>
+						</li>
+						<li class="themes__item">
+							<span class="themes__text">Спорт</span>
+							<span class="themes__number">62</span>
+						</li>
+						<li class="themes__item">
+							<span class="themes__text">Йога</span>
+							<span class="themes__number">8</span>
+						</li>
+					</ul>
 				</div>
 			</aside>
 		</section>
@@ -341,11 +407,29 @@
 		</section>
 	</main>
 	<footer class="footer">
-		<nav class="social">
-		
-		</nav>
+		<div class="footer-social">
+			<nav class="footer-social__nav">
+				<ul class="footer-social__list">
+					<li class="footer-social__item">
+						<a href="#">
+							<img class="footer-social__link" src="https://volshvs.github.io/coursework-frontend-html/svg/001-dribbble.svg" alt="dribbble">
+						</a>
+					</li>
+					<li class="footer-social__item">
+						<a href="#">
+							<img class="footer-social__link" src="https://volshvs.github.io/coursework-frontend-html/svg/002-pinterest.svg" alt="pinterest">
+						</a>
+					</li>
+					<li class="footer-social__item">
+						<a href="#">
+							<img class="footer-social__link" src="https://volshvs.github.io/coursework-frontend-html/svg/003-tumblr.svg" alt="tumblr">
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
 		<div class="copyright">
-			<span>Copyright © 2009-2019 City Blog LLC.</span>
+			<span class="copyright-text">Copyright © 2009-2019 City Blog LLC.</span>
 		</div>
 	</footer>
 </body>
